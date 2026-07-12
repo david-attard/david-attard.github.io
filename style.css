@@ -85,6 +85,25 @@ h3 {
   margin: 1.5rem 0;
 }
 
+.research-figure {
+  margin: 1.5rem 0 0;
+}
+
+.research-figure img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  display: block;
+}
+
+.research-figure figcaption {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-top: 0.6rem;
+  line-height: 1.5;
+}
+
 a {
   color: var(--accent);
 }
