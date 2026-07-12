@@ -154,3 +154,11 @@ footer {
 .contact-socials a {
   background: rgba(35, 78, 112, 0.08);
 }
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(16, 42, 67, 0.1);
+}
