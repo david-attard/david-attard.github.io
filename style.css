@@ -162,3 +162,12 @@ footer {
   transform: translateY(-3px);
   box-shadow: 0 12px 24px rgba(16, 42, 67, 0.1);
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f172a;
+    --text: #e2e8f0;
+    --card: #1e293b;
+    --border: #334155;
+  }
+}
