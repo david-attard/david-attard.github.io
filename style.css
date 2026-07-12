@@ -118,3 +118,39 @@ footer {
   color: var(--muted);
   padding: 2rem;
 }
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-top: 1.2rem;
+}
+
+.social-links a {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease;
+}
+
+.social-links a:hover {
+  transform: translateY(-2px);
+  opacity: 0.8;
+}
+
+.social-links img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.hero-socials a {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.contact-socials a {
+  background: rgba(35, 78, 112, 0.08);
+}
