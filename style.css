@@ -171,3 +171,7 @@ footer {
     --border: #334155;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
